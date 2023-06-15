@@ -13,7 +13,7 @@ class Pipeline:
     def run(self, data):
         # Model and Preprocessor loading process.
         self.model = ... # load network
-        self.preprocessor = ... # just load images as dataset.
+        self.preprocessor = ... # just load images as dataset
 
         # Get probabilties and best threshold
         predictions = ... # get predictions for each image
