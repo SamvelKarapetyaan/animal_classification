@@ -1,6 +1,6 @@
 # Animal Classification
 
-  We are creating a neural network to classify 10 types of animals. Our training dataset is sourced from Kaggle.com. We have provided a small training dataset in our repository for testing purposes. Here are the translations of the animal classes(Italian - English):
+We have developed a neural network for classifying 10 different types of animals. The training dataset we used is sourced from Kaggle.com. To facilitate testing, we have made a small training dataset available in our repository. Here are the translations for the animal classes(Italian - English):
 
 1. "cane": "dog"
 2. "cavallo": "horse"
@@ -13,4 +13,6 @@
 9. "scoiattolo": "squirrel"
 10. "ragno": "spider"
 
-We have implemented two networks for this task: one using TensorFlow and the other using PyTorch. You can choose either of them for the implementation.
+You can access the dataset we used for training at the following link: [Dataset Link](https://drive.google.com/drive/folders/1Wm8gLNpSvOoiDtiqUVG4-JIRfcmrrvCl?usp=sharing).
+
+We have implemented two separate networks for this task, one using TensorFlow and the other using PyTorch. You have the flexibility to choose either of these frameworks for the implementation.
