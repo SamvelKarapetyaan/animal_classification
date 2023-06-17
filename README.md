@@ -1,6 +1,6 @@
 # Animal Classification
 
-We have developed a neural network for classifying 10 different types of animals. The training dataset we used is sourced from Kaggle.com. To facilitate testing, we have made a small training dataset available in our repository. Here are the translations for the animal classes(Italian - English):
+We have developed a neural network for classifying 10 different types of animals. The training dataset we used is sourced from Kaggle.com. To contribute testing, we have made a small training dataset available in our repository. Here are the translations for the animal classes(Italian - English):
 
 1. "cane": "dog"
 2. "cavallo": "horse"
