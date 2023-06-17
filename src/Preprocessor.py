@@ -1,15 +1,22 @@
 import tensorflow as tf
 import pathlib
 class Preprocessor:
-    ### Directory where your images are located
-    Path = r"C:\Users\Dell\deeplearning_projects\animal_classification\data\images"
-    Path = pathlib.Path(Path)
-    def __init__(self, batch_size=64, img_height=299, img_width=299, validation_rate=0.15, Mode="Train"):
+
+    def __init__(self,Path, batch_size=64, img_height=299, img_width=299, validation_rate=0.15, Mode="Train",):
+        """
+        :param Path: Directory where your images are located
+        :param batch_size: 
+        :param img_height: 
+        :param img_width: 
+        :param validation_rate: 
+        :param Mode: if you want to train model and preporcess your train and validation data Initialize in Train Mode if you wont to prepare data for Test, so in test mode
+        """
         self.batch_size = batch_size
         self.img_height = img_height
         self.img_width = img_width
         self.validation_rate = validation_rate
         self.Mode = Mode
+        self.Path = pathlib.Path(Path)
 
     def fit_transform(self):
         """
