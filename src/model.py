@@ -25,3 +25,5 @@ model.compile(optimizer=optimizer,loss="sparse_categorical_crossentropy",metrics
 
 print(model.summary())
 
+model.fit(training_data,validation_data=validation_data,epochs=10)
+
