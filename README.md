@@ -15,7 +15,7 @@ We have developed a neural network for classifying 10 different types of animals
 
 You can access the dataset we used for training at the following link: [Dataset Link](https://drive.google.com/drive/folders/1Wm8gLNpSvOoiDtiqUVG4-JIRfcmrrvCl?usp=sharing). There you also can find our networks.
 
-PyTorch - **ResNet50** trained on IMAGENET1K_V2. You need download `resnet50_torch.pth` (This file we included in src directory.)
+PyTorch - **ResNet50** trained on IMAGENET1K_V2. You need download `resnet50_torch.pth` (For this network we wrote some code for testing, just put `resnet50_torch.pth` in `src` directory.)
 
 TensorFlow - **GoogleNet/IncpetionV3** trained on ImageNet. You need download `Tuned_Inseption.rar`.
 
