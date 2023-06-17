@@ -1,6 +1,6 @@
 import tensorflow as tf
 from Preporcessor import Preprocessor
-Prepr_ = Preprocessor()
+Prepr_ = Preprocessor(Path="Your train_data_path ",Mode="Train")
 ## Loading and spltting data into train and validation sets
 training_data, validation_data = Prepr_.fit_transform()
 ### We use GoogleNet/IncpetionV3 as our base model 
