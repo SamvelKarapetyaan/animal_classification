@@ -1,5 +1,5 @@
 import tensorflow as tf
-from Preporcessor import Preprocessor
+from tensorflow_preprocessor import Preprocessor
 Prepr_ = Preprocessor(Path="Your train_data_path ",Mode="Train")
 ## Loading and spltting data into train and validation sets
 training_data, validation_data = Prepr_.fit_transform()
