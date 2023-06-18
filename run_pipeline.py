@@ -2,7 +2,9 @@ from Preporcessor import Preprocessor
 import tensorflow as tf
 import argparse
 parser = argparse.ArgumentParser()
+### example path~~~\Tuned_Inseption
 parser.add_argument("--data_path", type=str, help="path to testing images")
+### example path~~~\data\images
 parser.add_argument("--model_path", type=str,  help="path to Stored Trained_Model")
 args = parser.parse_args()
 
